@@ -1,0 +1,22 @@
+# Ignore compiled Python files
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore large trained model files
+models/*.h5
+models/*.keras # TensorFlow 2.13+ uses .keras format by default
+
+# Ignore virtual environment folders
+venv/
+.venv/
+
+# Ignore common OS-specific temporary files
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Ignore temporary files created by various tools
+*.tmp
+*.log
+*.bak
